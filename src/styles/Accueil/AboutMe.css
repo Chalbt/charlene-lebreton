@@ -1,0 +1,110 @@
+.about-me {
+    display: flex;
+    color: #80744A;
+    margin-top: 40px;
+}
+
+.presentation {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-accroche {
+    width: 50%;
+    display: flex;
+    position: relative;
+    background: white;
+}
+
+.background-about {
+    background-size: cover;
+    background-position: center;
+    width: 640px;
+    opacity: 0.6;
+    margin-left: 70px;
+}
+
+.about-opportunities {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #414224;
+}
+
+.lets-connect {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .about-me {
+        margin-top: 0 !important;
+    }
+
+    .presentation h3 {
+        margin-bottom: 0;
+    }
+
+    .about-accroche {
+        margin-top: 20px;
+    }
+
+    .about-opportunities {
+        margin-top: 20px;
+    }
+
+    .background-about {
+        margin-left: 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .presentation {
+        width: auto;
+    }
+
+    .about-accroche {
+        position: relative;
+        width: 100%;
+    }
+
+    .about-opportunities {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .background-about {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+        opacity: 0.6;
+        margin-left: 0;
+      }
+
+      .lets-connect {
+        font-size: 20px;
+      }
+
+}

@@ -1,0 +1,107 @@
+.header {
+    display: flex;
+    height: 100vh;
+}
+
+.menu-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.menu-header ul {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    margin-right: 15px;
+    margin-top: 0;
+    align-items: center;
+    background-color: transparent;
+}
+
+
+.menu-header li {
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.menu-header a {
+    text-decoration: none;
+    color: #CFA47F;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.header-text {
+    margin-top: 50%;
+    color: #80744A;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.header-text h1 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.header-text h4 {
+    font-size: 60px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.background-img {
+    height: 100%;
+    width: 60%;
+    opacity: 0.6;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .header-text h4 {
+        font-size: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    .background-img {
+        width: 100%;
+        position: absolute;
+    }
+
+    .menu-header {
+        width: 100%;
+        background-color: white;
+    }
+
+    .menu-header a {
+        font-size: 10px;
+    }
+
+    .menu-header ul {
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .header-text h4 {
+        font-size: 30px;
+    }
+
+    .header-content {
+        width: 100%;
+        position: relative;
+    }
+
+}

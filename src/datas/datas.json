@@ -1,0 +1,76 @@
+[
+	{
+		"id": "1",
+		"title": "Booki",
+		"description": "Booki is a start-up that aims to develop a website that allows users to find accommodations and activities in the city of their choice.",
+		"statut": "Web Developer Intern",
+        "missions": "Implementing the website interface using HTML and CSS code.",
+        "difficultes": "Resizing images and properly defining parent and child <div> elements. A well-structured and organized code, along with thoughtful class naming, allows for better management of image sizing.",
+		"competences": [
+			"Setting up a front-end development environment",
+            "Using GitHub and versioning a project with git and GitHub",
+            "Implementing a responsive interface using HTML and CSS",
+            "Integrating content according to an HTML and CSS design"
+		],
+		"lien": "https://chalbt.github.io/PROJET_2/"
+	},
+
+    {
+		"id": "2",
+		"title": "Portfolio of Architect Sophie Bluel",
+		"description": "ArchiWebos agency is responsible for designing the portfolio website of interior architect Sophie Bluel.",
+		"statut": "Front-end Developer assisting a team at the agency",
+        "missions": "Developing the architect's work presentation page, the site administrator's login page, and the modal for uploading new media.",
+        "difficultes": "One of the biggest challenges in this project was building a function from scratch. To achieve the best result, I approached it step by step, carefully constructing my functions.",
+		"competences": [
+			"Manipulating DOM elements with JavaScript",
+            "Retrieving user data in JavaScript using forms",
+            "Handling user events with JavaScript"
+		],
+		"lien": "https://github.com/Chalbt/Portfolio-architecte-sophie-bluel.git"
+	},
+
+    {
+		"id": "3",
+		"title": "Photographer Nina Carducci's Website",
+		"description": "One of my services is offering SEO optimization to new clients. Nina Carducci is a photographer who is among my prospects.",
+		"statut": "Freelance Developer",
+        "missions": "Developing the architect's work presentation page, the site administrator's login page, and the modal for uploading new media.",
+        "difficultes": "Improving performance was the most important part of this project. It required focusing on image resizing, proper tag placement in HTML code, especially <script> tags, and file minification.",
+		"competences": [
+			"Optimizing website performance and SEO",
+            "Creating a test plan to validate website functionality"
+		],
+		"lien": "https://chalbt.github.io/nina-carducci.github.io/"
+	},
+
+    {
+		"id": "4",
+		"title": "Kasa",
+		"description": "Kasa is one of the leaders in peer-to-peer apartment rentals in France. They have launched a complete overhaul to transition to a full JavaScript stack with Node.js on the backend and React on the frontend.",
+		"statut": "Freelance Front-end Developer",
+        "missions": "Initiating the React project and developing the entire application, including components and routes, following the provided design.",
+        "difficultes": "Building the slider was a major challenge, as there were several conditions to meet, such as navigation arrows and image counters not being displayed on single-image sliders. The key aspect here was understanding the function's functionality to integrate this feature properly.",
+		"competences": [
+            "Initializing an application with React App",
+            "Configuring navigation between application pages with React Router",
+            "Developing website interface elements using React components"
+		],
+		"lien": "https://github.com/Chalbt/PROJET-6.git"
+	},
+
+    {
+		"id": "5",
+		"title": "Mon Vieux Grimoire",
+		"description": "Le Vieux Grimoire is a small bookstore chain located in Lille that wants to launch a website for book reference and rating.",
+		"statut": "Freelance Back-end Developer",
+        "missions": "Collaborating with a front-end developer to combine our skills on a new project called Mon Vieux Grimoire. My responsibility is to develop the entire back-end part.",
+		"difficultes" : "For the construction of the REST API, careful attention to the code writing process was crucial to avoid typos and errors. Attention to detail was paramount in this project.",
+        "competences": [
+			"Implementing a logical data model in compliance with regulations",
+            "Storing data and implementing secure CRUD operations"
+		],
+		"lien": "https://github.com/Chalbt/PROJET-7-Grimmoire.git"
+	}
+
+]

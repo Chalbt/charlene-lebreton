@@ -1,0 +1,9 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact p, h4 {
+    margin: 5px;
+}
